@@ -82,7 +82,16 @@ This project is shared for educational/demo purposes only.
 All AI logic and configuration remains property of the author.
 © 2025 Thomas Paul CJ. All rights reserved.
 
-## 🙌 Credits
-Bolt AI – for the agentic backend
+---
 
-Hack2Build 2025 – for the platform
+## 🙌 Credits & Acknowledgements
+
+This project was built during the **GenAI Hackathon 2025**, hosted by **[BIA (Builders in AI)](https://www.linkedin.com/company/builders-in-ai/)**.
+
+> 🧵 Read the full story behind Calm.ai on LinkedIn:  
+> [🔗 LinkedIn Post by Thomas Paul CJ](https://www.linkedin.com/posts/thomaspaulcj_genai-hackathon-mentalhealthtech-activity-7341720287207456769-SChi?utm_source=share&utm_medium=member_desktop)
+
+Special thanks to:
+- [Bolt AI](https://boltai.tech) for the core agent framework
+- The Hack2Build organizing team
+- Everyone who supported or reviewed during the demo phase
