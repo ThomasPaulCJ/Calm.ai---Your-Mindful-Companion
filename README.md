@@ -96,3 +96,14 @@ Special thanks to:
 - The BIA Hackathon organizing team
 - Everyone who contributed ideas, feedback, and support during the event
 
+---
+
+## 👥 Team
+
+This project was built by Team **Calm.ai** during the GenAI Hackathon 2025 hosted by Boston Institute of Analytics.
+
+**Team Members:**
+- Thomas Paul CJ
+- Vidhusankar CH
+- Manu Mathew
+- Nayif Nazar
