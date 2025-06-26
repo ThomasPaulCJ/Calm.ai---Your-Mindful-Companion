@@ -103,7 +103,7 @@ Special thanks to:
 This project was built by Team **Calm.ai** during the GenAI Hackathon 2025 hosted by Boston Institute of Analytics.
 
 **Team Members:**
-- Thomas Paul CJ
+- [Thomas Paul CJ](https://github.com/ThomasPaulCJ)
 - Vidhusankar CH
 - Manu Mathew
 - Nayif Nazar
