@@ -57,7 +57,7 @@ npm run dev
 ngrok http 5173
 ```
 ## 📸 Preview
-![Calm.ai Preview](./assets/calm-ai-preview.png)
+![Calm.ai Preview](./assets/Preview.png)
 ## 🧠 Innovations
 Context-aware emotional routing via Bolt pipelines
 
