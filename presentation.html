@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calm.ai - Mental Health Chatbot Presentation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .brain-pulse {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        .feature-icon {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100">
+    <div class="container mx-auto px-8 py-12 max-w-7xl">
+        <!-- Header Section -->
+        <div class="text-center mb-16">
+            <div class="flex items-center justify-center mb-6">
+                <div class="w-20 h-20 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full flex items-center justify-center shadow-2xl brain-pulse">
+                    <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                    </svg>
+                </div>
+            </div>
+            <h1 class="text-6xl font-bold bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
+                Calm.ai
+            </h1>
+            <p class="text-2xl text-gray-600 font-medium mb-2">Your Mindful Companion 🧠💙</p>
+            <p class="text-lg text-gray-500 max-w-3xl mx-auto leading-relaxed">
+                An intelligent mental health chatbot that provides compassionate support, personalized recommendations, and evidence-based coping strategies for emotional wellness.
+            </p>
+        </div>
+
+        <!-- Main Content Grid -->
+        <div class="grid lg:grid-cols-2 gap-12 items-start">
+            <!-- Left Column - Key Features -->
+            <div class="space-y-8">
+                <div class="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-white/50 card-hover">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center gap-3">
+                        <span class="text-4xl">✨</span>
+                        Key Features
+                    </h2>
+                    
+                    <div class="grid gap-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center shadow-lg">
+                                <span class="text-white text-xl">🧠</span>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-800 text-lg">Emotion Detection</h3>
+                                <p class="text-gray-600 text-sm">Advanced AI analyzes user messages to identify emotions and provide contextual support</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center shadow-lg">
+                                <span class="text-white text-xl">🎬</span>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-800 text-lg">Personalized Recommendations</h3>
+                                <p class="text-gray-600 text-sm">Curated movies, music, and games based on emotional state and user preferences</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-gradient-to-r from-green-500 to-teal-500 rounded-xl flex items-center justify-center shadow-lg">
+                                <span class="text-white text-xl">🌱</span>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-800 text-lg">Self-Care Activities</h3>
+                                <p class="text-gray-600 text-sm">Evidence-based coping strategies and mindfulness exercises tailored to specific needs</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-xl flex items-center justify-center shadow-lg">
+                                <span class="text-white text-xl">📊</span>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-800 text-lg">Emotional Insights</h3>
+                                <p class="text-gray-600 text-sm">Track emotional patterns and conversation history for better self-awareness</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column - Technical Highlights & Impact -->
+            <div class="space-y-8">
+                <!-- Technical Stack -->
+                <div class="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-white/50 card-hover">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center gap-3">
+                        <span class="text-4xl">⚡</span>
+                        Technical Excellence
+                    </h2>
+                    
+                    <div class="grid grid-cols-2 gap-4 mb-6">
+                        <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-4 text-center">
+                            <div class="text-2xl font-bold text-indigo-600">React + TypeScript</div>
+                            <div class="text-sm text-indigo-500">Modern Frontend</div>
+                        </div>
+                        <div class="bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-4 text-center">
+                            <div class="text-2xl font-bold text-purple-600">Tailwind CSS</div>
+                            <div class="text-sm text-purple-500">Beautiful Design</div>
+                        </div>
+                        <div class="bg-gradient-to-r from-green-50 to-teal-50 rounded-xl p-4 text-center">
+                            <div class="text-2xl font-bold text-green-600">Local Storage</div>
+                            <div class="text-sm text-green-500">Privacy First</div>
+                        </div>
+                        <div class="bg-gradient-to-r from-orange-50 to-red-50 rounded-xl p-4 text-center">
+                            <div class="text-2xl font-bold text-orange-600">Responsive</div>
+                            <div class="text-sm text-orange-500">All Devices</div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-xl p-4">
+                        <h3 class="font-semibold text-gray-800 mb-2">🎯 Key Innovations</h3>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• Context-aware conversation memory</li>
+                            <li>• Problem-specific activity recommendations</li>
+                            <li>• Dark/light mode with smooth transitions</li>
+                            <li>• Personalized user preference learning</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Impact & Benefits -->
+                <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-3xl p-8 shadow-xl text-white card-hover">
+                    <h2 class="text-3xl font-bold mb-6 flex items-center gap-3">
+                        <span class="text-4xl">💝</span>
+                        Mental Health Impact
+                    </h2>
+                    
+                    <div class="space-y-4">
+                        <div class="bg-white/20 backdrop-blur-sm rounded-xl p-4">
+                            <h3 class="font-semibold text-lg mb-2">🌟 Accessible Support</h3>
+                            <p class="text-sm opacity-90">24/7 availability for those who need immediate emotional support and guidance</p>
+                        </div>
+                        
+                        <div class="bg-white/20 backdrop-blur-sm rounded-xl p-4">
+                            <h3 class="font-semibold text-lg mb-2">🎯 Personalized Care</h3>
+                            <p class="text-sm opacity-90">Tailored recommendations that adapt to individual emotional needs and preferences</p>
+                        </div>
+                        
+                        <div class="bg-white/20 backdrop-blur-sm rounded-xl p-4">
+                            <h3 class="font-semibold text-lg mb-2">🔒 Privacy Protected</h3>
+                            <p class="text-sm opacity-90">All data stored locally, ensuring complete privacy and user control</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom CTA -->
+        <div class="text-center mt-16">
+            <div class="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-white/50 max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready to Experience Calm.ai?</h2>
+                <p class="text-gray-600 mb-6 text-lg">Join thousands finding peace and support through intelligent, compassionate AI assistance</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <div class="bg-gradient-to-r from-indigo-500 to-purple-500 text-white px-8 py-3 rounded-xl font-semibold shadow-lg">
+                        🚀 Production Ready
+                    </div>
+                    <div class="bg-gradient-to-r from-green-500 to-teal-500 text-white px-8 py-3 rounded-xl font-semibold shadow-lg">
+                        💙 Compassionate AI
+                    </div>
+                    <div class="bg-gradient-to-r from-pink-500 to-rose-500 text-white px-8 py-3 rounded-xl font-semibold shadow-lg">
+                        🌟 Beautiful Design
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
