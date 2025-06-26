@@ -104,6 +104,6 @@ This project was built by Team **Calm.ai** during the GenAI Hackathon 2025 hoste
 
 **Team Members:**
 - [Thomas Paul CJ](https://github.com/ThomasPaulCJ)
-- [Vidhusankar CH](https://github.com/vidhusankar-hozo)
+- Vidhusankar CH
 - Manu Mathew
 - Nayif Nazar
