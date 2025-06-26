@@ -60,6 +60,7 @@ ngrok http 5173
 <p align="center">
  <img src="./assets/Preview.png" width="600" alt="Calm.ai Preview" />
 </p>
+
 ## 🧠 Innovations
 Context-aware emotional routing via Bolt pipelines
 
