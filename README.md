@@ -20,6 +20,7 @@ Built during the **Hack2Build 2025 Hackathon**, this project utilizes **Bolt AI*
 - 📊 **Emotional Insights**  
   Tracks emotional trends over time (locally) to improve self-awareness and care habits.
 
+http://calm-ai-your-mindful-companion-thomaspaulcj.vercel.app
 ---
 
 ## ⚙️ Tech Stack
